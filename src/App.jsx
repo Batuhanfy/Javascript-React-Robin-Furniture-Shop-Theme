@@ -52,7 +52,7 @@ export default function App() {
       newWishlist.push({ product: product });
     }
 
-    setWishlist(newWishlist);
+     setWishlist(newWishlist);
     alertify.success(`${product.title} added to wishlist!`);
   };
 
